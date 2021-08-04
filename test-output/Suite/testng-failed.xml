@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" name="Test name of Tesdsdf(failed)" verbose="5">
+    <classes>
+      <class name="testcases.Sigin_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="signInToTheApplication"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcases.Sigin_Test -->
+    </classes>
+  </test> <!-- Test name of Tesdsdf(failed) -->
+</suite> <!-- Failed suite [Suite] -->
